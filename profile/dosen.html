@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dosen Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 32px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .profile-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #e1e4e8;
+            background: #eaeaea;
+        }
+        .profile-info h2 {
+            margin: 0 0 8px 0;
+            font-size: 2rem;
+            color: #222;
+        }
+        .profile-info p {
+            margin: 0;
+            color: #555;
+            font-size: 1.1rem;
+        }
+        .profile-details {
+            margin-top: 24px;
+        }
+        .profile-details h3 {
+            margin-bottom: 12px;
+            color: #333;
+            font-size: 1.2rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 6px;
+        }
+        .profile-details ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .profile-details li {
+            margin-bottom: 10px;
+            color: #444;
+            font-size: 1rem;
+        }
+        @media (max-width: 700px) {
+            .profile-container {
+                padding: 16px;
+            }
+            .profile-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+            }
+            .profile-avatar {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="../photo/huma.jpg" alt="Profile Photo" class="profile-avatar">
+            <div class="profile-info">
+                <h2>Gede Humaswara Prathama, S.T., M.T.</h2>
+                <p>Assistant Professor of Technology Informasi</p>
+                <p>Email: huma@undiknas.ac.id</p>
+            </div>
+        </div>
+        <div class="profile-details">
+            <h3>About</h3>
+            <p>Huma specializes in Software Engineering and Cloud Computing. She has published over 50 research papers and is passionate about teaching and mentoring students.</p>
+            <h3>Education</h3>
+            <ul>
+                <li>M.T. in Electrical Engineering, Udayana University</li>
+                <li>S.T. in Electrical Engineering, Udayana University</li>
+            </ul>
+            <h3>Research Interests</h3>
+            <ul>
+                <li>Software Engineering</li>
+                <li>Cloud Computing</li>
+                <li>Artificial Engineering</li>
+            </ul>
+            <h3>Selected Publications</h3>
+            <ul>
+                <li>Prathama, H. (2023). Deep Learning for NLP. Journal of AI Research.</li>
+                <li>Prathama, H. (2022). Advances in Machine Learning. IEEE Transactions.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
