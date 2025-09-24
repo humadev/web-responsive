@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Pribadi</title>
+</head>
+<body>
+    <h1>Informasi Biodata</h1>
+    <h2>Data Diri</h2>
+    <p>Hallo perkenalkan nama saya salsabila nur shafa biasa di panggil salsa, saya sedang menempuh pendidikan semester tiga di Universitas Pendidikan Nasional 
+        fakultas Teknologi dan informatika prodi teknologi informasi .</p>
+    <h2>Foto Profile</h2>
+    <p>Berikut ini adalah foto profile saya: </p>
+    <img src="Foto Profile.png" alt="Foto Profile Saya">
+
+    <h2>Media Sosial</h2>
+    <p>Untuk informasi lebih lanjut mengenai saya, berikut media sosial saya: <a href="http://www.instagram.com" target="_blank">Media Sosial saya</a>.</p>
+
+    <h2>Pendidikan</h2>
+    <table border="1">
+        <tr>
+            <th>jenjang</th>
+            <th>Nama Sekolah</th>
+            <th>Tahun Masuk/Lulus</th>
+        </tr>
+        <tr>
+            <td>SD</td>
+            <td>MI Hidayatullah</td>
+            <td>2012 - 2018</td>
+        </tr>
+        <tr>
+            <td>SMP</td>
+            <td>MTS Hidayatullah</td>
+            <td>2018 - 2021</td>
+        </tr>
+        <tr>
+            <td>SMA</td>
+            <td>MA Hidayatullah</td>
+            <td>2021 - 2024</td>
+        </tr>
+    </table>
+
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="emailaddr" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
