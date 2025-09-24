@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--Halaman Judul-->
+    <header>
+        <nav class ="navbar">
+            <div class ="container-navbar>
+                <a href="#" class ="logo">My Profile</a>
+
+                <ul class ="menu-navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="tombol">&#9776;</div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Gambar Profile Mahasiswa-->
+    <main>
+        <h1>Profil Mahasiswa</h1>
+        <img src="profile.png" alt="Foto Profile Mahasiswa" width="200">
+
+        <!--Deskripsi-->
+        <p>Halo saya Kadek Wahyu Santika Putra, seorang mahasiswa yang berasal dari jurusan Teknologi Informasi Universitas Pendidikan Nasional.
+        Saya memiliki minat yang besar dalam bidang pengembangan web dan desain grafis. Saya berharap dapat mengembangkan keterampilan saya lebih lanjut di bidang ini selama masa studi saya.
+        </p>
+
+        <!--link ke akun media sosial-->
+        <h2>Media Sosial</h2>
+            <p>Anda dapat menghubungi saya melalui:</p>
+            <ul>
+                <li><a href="mailto:wahyuputra7396@gmail.com">wahyuputra7396@gmail.com</a></li>
+                <li><a href="https://www.instagram.com/wsant1ka?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target ="_blank">Instagram</a></li>
+                <li><a href="https://github.com/wsantika" target="GitHub">GitHub</a></li>
+            </ul>
+
+        <!--Membuat tabel pendidikan-->
+        <h2>Riwayat Pendidikan</h2>
+            <table border="1">
+                <tr>
+                    <th>Jenjang</th>
+                    <th>Nama Institusi</th>
+                    <th>Tahun</th>
+                </tr>
+
+                <tr>
+                    <td>S1-Teknologi Informasi</td>
+                    <td>Universitas Pedidikan Nasional</td>
+                    <td>2024-Sekarang</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Menengah Atas</td>
+                    <td>SMAN 1 Gianyar</td>
+                    <td>2021-2024</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Menengah Pertama</td>
+                    <td>SMPN 3 Gianyar</td>
+                    <td>2018-2021</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Dasar</td>
+                    <td>SDN 1 Samplangan</td>
+                    <td>2012-2018</td>
+                </tr>
+        </table>
+
+        <!--Membuat formulir kontak-->
+        <h2>Formulir Kontak</h2>
+            <form action ="submit_form.php" method ="post">
+                <label for ="name">Nama Lengkap:</label>
+                <input type ="text" id ="name" name ="fullname" required><br><br>
+
+                <label for ="email">Email:</label>
+                <input type ="email" id ="email" name ="emailaddress" required><br><br>
+
+                <button type ="submit">Kirim</button>
+            </form>
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+        <h4>Contact Me</h4>
+        <ul>
+            <li>Phone: 000-000-000</li>
+            <li><a href="wahyuputra7396@gmail.com">wahyuputra7396@gmail.com</a></li>
+            <li>Jln. Ratna Kalcer No. 2</li>
+        </ul>
+
+        <h4>About Me</h4>
+        <ul>
+            <li><a href="#">My Story</a></li>
+            <li><a href="#">My Project</a></li>
+        </ul>
+
+        <h4>LEGAL</h4>
+        <ul>
+            <li><a href="#">Terms & Condition</a></li>
+            <li><a href="#">Privasi Policy</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
