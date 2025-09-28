@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>html.nima</title>
+    </head>
+    <body>
+        <!-- Judul Halaman-->
+        <h1>Yunima Dioranda Manik</h1>
+        <!-- Subjudul Biografi-->
+        <h2>Biografi</h2>
+        <!--- Paragraf Biografi-->
+        <p>Saya adalah mahasiswa yang mempelajari IT di Universitas Pendidikan Nasional. Saya memiliki ketertarikan dalam bidang AI, khususnya bagaimana teknologi ini bisa digunakan untuk membantu aktivitas sehari-hari. Selain itu, saya juga senang belajar hal baru seputar Pemrograman dan Project kecil-kecilan.</p>
+        <!-- Subjudul Pendidikan-->
+        <h2>Pendidikan</h2>
+        <!-- Paragraf Pendidikan-->
+        <p>Saat ini saya menempuh semester 3 pada Program Studi Teknologi Informasi yang ada di Universitas Pendidikan Nasional.</p>
+        
+        <!-- Menyisipkan Gambar-->
+        <h2>Profil Saya</h2>
+        <img src="../photo/nima.jpg" alt="yunima" width="300" height="auto">
+
+        <!-- Daftar Kontak Saya Menggunakan Hyperlink-->
+        <h2>Kontak Saya</h2>
+        <p>Anda dapat menghubungi saya melalui email ini: <a href="yunimadioranda7y@gmail.com">yunimadioranda7y@gmail.com</a></p>
+        <p>Instagram saya: <a href="https://www.instagram.com/yun1ma">@yun1ma</a></p>
+        <p>Locket: <a href="https://locket.cam/nim44">@nim44</a></p>
+        <p>Github: <a href="https://github.com/nimaw20" target="_blank">nimaw20</a></p>
+        <!-- Riwayat Pendidikan-->
+        <h2>Riwayat Pendidikan</h2>
+        <table border="1">
+            <tr>
+                <th>Jenjang</th>
+                <th>Institusi Pendidikan</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>SMP</td>
+                <td>SMPn 11 Denpasar</td>
+                <td>2018 - 2021</td>
+            </tr>
+            <tr>
+                <td>SMA</td>
+                <td>SMAn 5 Denpasar</td>
+                <td>2021 - 2024</td>
+            </tr>
+        </table>
+
+        <!-- Formulir Kontak-->
+        <h2>Formulir Kontak</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" cols="5" required></textarea><br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+    </body>
+</html>
+
