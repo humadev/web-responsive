@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Biodata Mahasiswa</title>
+    </head>
+    <body>  
+        <!-- Judul Halaman -->
+        <h1>Ni Komang Dewi Mahayani</h1>
+        <!-- Subjudul Untuk Biografi -->
+        <h2>Biografi </h2>
+        <!-- Paragraf untuk biografi singkat -->
+        <p>Saya adalah mahasiswa yang mempelajari Ilmu Komputer di Universitas Pendidikan Nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin memperdalam pengetahuan dalam HTML dan CSS.</p>
+        <!-- Subjudul untuk Pendidikan -->
+        <h2>Pendidikan</h2>
+        <!-- Paragraf pendidikan saat ini -->
+        <p>Saat ini saya sedang menempuh semester ketiga di jurusan Ilmu Komputer. Saya mengambil kursus tentang dasar–dasar pengembangan web untuk meningkatkan keterampilan saya dalam bidang ini.</p>
+
+        <!-- Menambahkan gambar -->
+        <h2>Profil Saya</h2>
+        <img src="../photo/fotoprofil42430028.jpg" alt="Ni Komang Dewi Mahayani" width="200" height="250">
+
+        <!-- Daftar kontak Menggunakan Hyperelink -->
+        <h2>Kontak Saya</h2>
+        <p>Anda dapat menghubungi saya melalui email ini <a href="dewimahayani94@gmail.com">dewimahayani94@gmail.com</a></p>
+        <p>Instagram : <a href="https://www.instagram.com/dewiimahayani/?igsh=MW51aGNkcm1qbDcybQ%3D%3D#">dewiimahayani</a></p>
+        <p>Tiktok : <a href="https://www.tiktok.com/@mhyniiiiii?_t=ZS-8zs2Zndj5Db&_r=1">mhyniiiiii</a></p>
+        <p>Github : <a href="https://github.com/dewimahayani94-byte/pratikum/tree/master/biodata" target="_blank">dewimahayani94-byte</a></p>
+
+        <!-- Riwayat Pendidikan -->
+        <h2>Riwayat Pendidikan</h2>
+        <table border="1">
+            <tr>
+                <th>Jenjang</th>
+                <th>Nama Institusi</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>SD</td>
+                <td>SD Negeri 1 Duda Timur</td>
+                <td>2011 - 2017</td>
+            </tr>
+            <tr>
+                <td>SMP</td>
+                <td>SMP Negeri 2 Selat</td>
+                <td>2017 - 2020</td>
+            </tr>
+            <tr>
+                <td>SMA</td>
+                <td>SMA Negeri 1 Selat</td>
+                <td>2020 - 2023</td>
+            </tr>
+            <tr>
+                <td>Perguruan Tinggi</td>
+                <td>Universitas Pendidikan Nasional</td>
+                <td>2024 - Sekarang</td>
+            </tr>
+        </table>
+
+        <!-- Formulirr kontak -->
+        <h2>Formulir Kontak</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="fullname" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="emailaddr" required><br><br>
+
+            <label for="name">Pesan:</label>
+            <textarea id="message" name="usermessage" rows="4" required> </textarea><br><br>
+            <button type="submit">Kirim</button>
+        </form>
+    </body>
+</html>
