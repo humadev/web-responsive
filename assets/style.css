@@ -13,19 +13,19 @@ header{
 }
 
 .container{
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding: 16px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
     width: 100vw;
 }
 
 .container div{
-    flex-basis: 200px;
-    border: thick solid whitesmoke;
+    /*flex-basis: 200px;*/
+    width: 200px;
+    display: inline-block;
+    border: thick solid black;
     border-radius: 10px;
     text-align: center;
 }
