@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="V-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratikum HTML</title>
+    </head>
+    <body>
+        <!--Judul Halaman atau Bagian -->
+        <h1>PROFIL MAHASISWA</h1>
+
+        <!--Subjudul untuk Bagian Biografi -->
+        <h2>Biografi</h2>
+        <!--Foto Berdampingan & Nama Mahasiswa-->
+        <div style="display: flex; align-items: center; gap: 20px;">
+             <!--Gambar profil-->
+            <img src="../photo/42430017.jpg" alt="Foto Profil Daniel Ndolu" width="210">
+
+            <!--Nama Mahasiswa & Paragraf Biografi-->
+            <div>
+            <h2>Daniel Ndolu</h2>
+            <h2>(42430017)</h2>
+            <p>Saya adalah mahasiswa yang mempelajarai Ilmu Komputer di Universitas pendidikan nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin memperdalam pengetahuan dalam HTML dan CSS.</p>
+            </div>
+        </div>
+        <!--Subjudul untuk Pendidikan-->
+         <h2>Pendidikan</h2>
+         <p>Saat ini saya menempuh semester ketiga di jurusan Ilmu Komputer. Saya mengambil kursus tentang dasar-dasar pengembangan web untuk meningkatkan keterampilan saya dalam bidang ini</p>
+    </body>
+    <body>
+        <!-- Menggunakan HyperLink-->
+         <h2>Kontak Saya</h2>
+         <p>Anda dapat menghubungi saya melalui alamat email di <a href="danielndolu374@gmail.com">danielndolu374@gmail.com</a>.</p>
+
+          <!-- Hyperlink ke dokumen eksternal -->
+           <p>Untuk informasi lebih lanjut, Anda dapat mengunjungi di media sosial saya melalui link berikut: <a href="https://github.com/danielcilboy" target="_blank">website saya</a>.</p>
+    </body>
+        <!-- Formulir Kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="Submit_form.php" method="post">
+        <label for="fullname">Nama Lengkap:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+
+        </form>
+    </body>
+</html>
